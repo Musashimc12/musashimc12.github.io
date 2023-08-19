@@ -1,0 +1,35 @@
+.Barra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 70px;
+
+}
+
+.separacion {
+    margin-left: 20px;
+}
+
+.containerColor {
+    background-color: rgba(135, 202, 222, 0.336);
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+main {
+    background-color: #f8f9fa;
+}
+
+.margen {
+
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

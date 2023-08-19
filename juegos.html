@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Juegos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./api.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-md">
+
+        <div class="offcanvas-body">
+            <ul class="navbar-nav flex-grow-1 justify-content-between Barra">
+                <li class="nav-item"><a class="nav-link" href="./index.html">
+                        <img width="130px" src="./assets/gaming.png" alt="">
+                    </a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html"> <svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-joystick m-lg-2"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z" />
+                            <path
+                                d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z" />
+                        </svg>Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./comics.html"> <svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-joystick m-lg-2" viewBox="0 0 16 16">
+                            <path
+                                d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z" />
+                            <path
+                                d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z" />
+                        </svg>Cómics</a></li>
+                <li class="nav-item"><a class="nav-link" href="./juegos.html"> <svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-joystick m-lg-2" viewBox="0 0 16 16">
+                            <path
+                                d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z" />
+                            <path
+                                d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z" />
+                        </svg>Juegos</a></li>
+                <li class="nav-item"><a class="nav-link" href="./portal.html"> <svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-joystick m-lg-2" viewBox="0 0 16 16">
+                            <path
+                                d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z" />
+                            <path
+                                d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z" />
+                        </svg>Mi Portal</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contacto.html"> <svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-joystick m-lg-2" viewBox="0 0 16 16">
+                            <path
+                                d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z" />
+                            <path
+                                d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z" />
+                        </svg>Contacto</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+
+    <div class="p-1 bg-body-secondary">
+        <div class="col-lg-0 px-6">
+            <p class="lead my-3 px-5"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    fill="currentColor" class="bi bi-controller mb-1" viewBox="0 0 16 16">
+                    <path
+                        d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z" />
+                    <path
+                        d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z" />
+                </svg> Descubrí las ofertas diarias de Gaming Online que tenemos para vos! con Gaming Online, te
+                acercamos a tu
+                productos favoritos!</p>
+        </div>
+    </div>
+
+
+    <!-- CARRUSEL -->
+
+    <img width="100%" src="https://comicstores.es/images/bloques_sliders/169-es-banner-massive-verse.jpg" alt="">
+
+
+    <!-- Fotos con título y pie de página -->
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <h3 class="text-secondary">Descubre la coleccion de juegos:</h3>
+            <br>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://www.yattajapan.com/cdn/shop/products/BandaiST-01OnePieceCardGameStarterDeckStrawPirateYattaJapan.jpg?v=1648818173" alt="">
+                        <div class="card-body">
+                            <h3>One Piece Card Game</h3>
+                            <p class="card-text">$150.000.</p>
+                            <button class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://www.generacionx.es/Imagenes/Articulos/4012927161784.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Yu Gi Oh! The Crimson King</h3>
+                            <p class="card-text">$120.000</p>
+                            <button class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://www.generacionx.es/Imagenes/Articulos/4012927165027.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Yu Gi Oh! Legendary </h3>
+                            <p class="card-text">$40.000</p>
+                            <button class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://www.generacionx.es/Imagenes/Articulos/9421037050812.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Dusk Dawn FAB</h3>
+                            <p class="card-text">$30.000</p>
+                            <button class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+                <br>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="https://www.gamersdecide.com/sites/default/files/styles/news_images/public/choose_your_starter_deck.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Pokemon TCG Starter Decks </h3>
+                                <p class="card-text">$250.000.</p>
+                                <button class="btn btn-primary">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="https://devir.com.ar/wp-content/uploads/2020/02/SWSH-BP01-600x600.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Pokemon TCG Sword and Shield</h3>
+                                <p class="card-text">$50.000</p>
+                                <button class="btn btn-primary">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="data:image/jpeg;base64,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" alt="">
+                            <div class="card-body">
+                                <h3>magic The Gathering Wilds of Eldraine</h3>
+                                <p class="card-text">$50.000</p>
+                                <button class="btn btn-primary">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/7666a7fe4bec4f658df3deefbbfa237e_Large.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Magic The Gathering Commander Starter Deck</h3>
+                                <p class="card-text">$50.000</p>
+                                <button class="btn btn-primary">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    
+                </div>
+            </div>
+
+     
+       
+
+
+        <!-- Anime de la semana fotos -->
+
+
+        <div class="containerColor">
+            <div class="container">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1 mt-5 text-black">Haz click acá para conocer el
+                            Anime del día.
+                        </h2>
+                        <p class="lead text-black">Podemos encontrar haciendo click en el botón las fotos del anime</p>
+
+                        <div class="buttons">
+                            <button class="btn btn-primary" id="fox_btn">Descubrelo ></button>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+
+                        <!-- API -->
+                        <div class="results">
+                            <div id="fox_result" class="result rounded-2">
+                                <p></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Footer  -->
+
+        <div class="container-fluid">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                </ul>
+                <p class="text-center text-body-secondary">&copy; 2023 Company, Inc</p>
+            </footer>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+        <script src="./api.js"></script>
+        </head>
+</body>
+
+</html>
